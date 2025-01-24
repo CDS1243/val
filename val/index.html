@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine Packages</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif; /* Changed to a playful font */
+      margin: 0;
+      padding: 0;
+      background: #fbd4d1; /* Soft light pink background */
+      color: #a80f0f; /* Dark red text */
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .header h1 {
+      font-size: 3em;
+      margin: 0;
+      color: #d50032; /* Bright red */
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .header p {
+      font-size: 1.5em;
+      margin: 10px 0;
+      font-weight: bold;
+      color: #e63946; /* Warm red */
+    }
+
+    .packages {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .package {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      color: #333;
+      cursor: pointer;
+    }
+
+    .package:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .package h2 {
+      font-size: 1.8em;
+      margin-bottom: 15px;
+      color: #e63946; /* Red for headings */
+      border-bottom: 2px solid #f1faee;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .package ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+    }
+
+    .package ul li {
+      margin: 8px 0;
+      font-size: 1em;
+      color: #555;
+    }
+
+    .package .price {
+      font-size: 1.8em;
+      margin-top: 15px;
+      color: #d50032; /* Bright red for price */
+      font-weight: bold;
+    }
+
+    .image-placeholder {
+      margin: 15px 0;
+      height: 120px;
+      background: #ffe4e6;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2em;
+      color: #e63946; /* Red color for placeholder text */
+      border: 2px dashed #e63946; /* Dashed border in red */
+      font-weight: bold;
+    }
+
+    .whatsapp-button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #e63946;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 1em;
+      font-weight: bold;
+      color: #fff;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+
+    .footer p {
+      margin: 5px 0;
+    }
+
+    /* Mobile responsive styles */
+    @media (max-width: 768px) {
+      .header h1 {
+        font-size: 2.5em;
+      }
+
+      .header p {
+        font-size: 1.2em;
+      }
+
+      .package h2 {
+        font-size: 1.6em;
+      }
+
+      .package .price {
+        font-size: 1.5em;
+      }
+
+      .footer p {
+        font-size: 1.2em;
+      }
+    }
+
+    /* Extra small screens (mobile portrait) */
+    @media (max-width: 480px) {
+      .header h1 {
+        font-size: 2em;
+      }
+
+      .header p {
+        font-size: 1.1em;
+      }
+
+      .package {
+        padding: 15px;
+      }
+
+      .package h2 {
+        font-size: 1.4em;
+      }
+
+      .package .price {
+        font-size: 1.4em;
+      }
+
+      .footer p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Benny Flourish Bakes</h1>
+      <p>Valentine Surprised Packages at Affordable Prices</p>
+    </div>
+
+    <div class="packages">
+      <div class="package">
+        <div class="image-placeholder">
+          <img src="img/wired-outline-2857-balloons-2-hover-pinch.gif" alt="Add Balloons" style="width: 30%; height: auto; border-radius: 10px;">
+        </div>
+        <h2>17k Package</h2>
+        <ul>
+          <li>Lipgloss</li>
+          <li>Love Card</li>
+          <li>Hair Band</li>
+          <li>Piece of Cake</li>
+          <li>Perfume</li>
+          <li>Yoghurt</li>
+          <li>Stem of Rose</li>
+        </ul>
+        <p class="price">₦17,000</p>
+        <a href="https://wa.me/2349061413565?text=Hello!%20I%20am%20interested%20in%20the%2017k%20package." class="whatsapp-button" target="_blank">Select</a>
+      </div>
+
+      <div class="package">
+        <div class="image-placeholder">
+          <img src="img/wired-outline-412-gift-hover-squeeze.gif" alt="Add Balloons" style="width: 30%; height: auto; border-radius: 10px;">
+        </div>
+        <h2>20k Package</h2>
+        <ul>
+          <li>Card</li>
+          <li>Stem of Rose</li>
+          <li>Love Bangles</li>
+          <li>Yoghurt</li>
+          <li>Perfume</li>
+          <li>Chin Chin</li>
+          <li>Chocolate</li>
+        </ul>
+        <p class="price">₦20,000</p>
+        <a href="https://wa.me/2349061413565?text=Hello!%20I%20am%20interested%20in%20the%2020k%20package." class="whatsapp-button" target="_blank">Select</a>
+      </div>
+
+      <div class="package">
+        <div class="image-placeholder">
+          <img src="img/wired-outline-240-red-wine-hover-cheers.gif" alt="Add Balloons" style="width: 30%; height: auto; border-radius: 10px;">
+        </div>
+        <h2>25k Package</h2>
+        <ul>
+          <li>Fancy Water Bottle</li>
+          <li>3 Snickers Bar</li>
+          <li>Grape Wine</li>
+          <li>Piece of Cake</li>
+          <li>Necklace</li>
+          <li>Chocolate Biscuits</li>
+          <li>Perfume</li>
+        </ul>
+        <p class="price">₦25,000</p>
+        <a href="https://wa.me/2349061413565?text=Hello!%20I%20am%20interested%20in%20the%2025k%20package." class="whatsapp-button" target="_blank">Select</a>
+      </div>
+
+      <div class="package">
+        <div class="image-placeholder">
+          <img src="img/wired-outline-1845-rose-hover-pinch.gif" alt="Add Balloons" style="width: 30%; height: auto; border-radius: 10px;">
+        </div>
+        <h2>30k Package</h2>
+        <ul>
+          <li>Wine</li>
+          <li>Candies</li>
+          <li>Bangles</li>
+          <li>Couples Necklace</li>
+          <li>Small Chops</li>
+          <li>Piece of Cake</li>
+          <li>Face Towel</li>
+        </ul>
+        <p class="price">₦30,000</p>
+        <a href="https://wa.me/2349061413565?text=Hello!%20I%20am%20interested%20in%20the%2030k%20package." class="whatsapp-button" target="_blank">Select</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p style="color: #d50032;">Contact us on WhatsApp: +2349061413565</p>
+      <p style="color: #d50032;">Tell: +2348125856088</p>
+    </div>
+  </div>
+</body>
+</html>
