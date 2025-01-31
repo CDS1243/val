@@ -192,13 +192,14 @@
         </div>
         <h2>17k Package</h2>
         <ul>
-          <li>Lipgloss</li>
-          <li>Love Card</li>
-          <li>Hair Band</li>
-          <li>Piece of Cake</li>
-          <li>Perfume</li>
-          <li>Yoghurt</li>
-          <li>Stem of Rose</li>
+          <li>Luxury lip gloss for a radiant shine</li>
+          <li>Personalized love card for heartfelt messages</li>
+          <li>Stylish hairband for everyday elegance</li>
+          <li>2 pieces of delicious handmade standard cupcakes</li>
+          <li>Fragrance of choice in a handy perfume</li>
+          <li>Rich and creamy yogurt</li>
+          <li>Single stem of fresh rose flower</li>
+
         </ul>
         <p class="price">₦17,000</p>
         <a href="https://wa.me/2349061413565?text=Hello!%20I%20am%20interested%20in%20the%2017k%20package." class="whatsapp-button" target="_blank">Select</a>
@@ -210,13 +211,14 @@
         </div>
         <h2>20k Package</h2>
         <ul>
-          <li>Card</li>
-          <li>Stem of Rose</li>
-          <li>Love Bangles</li>
-          <li>Yoghurt</li>
-          <li>Perfume</li>
-          <li>Chin Chin</li>
-          <li>Chocolate</li>
+          <li>Charming custom greeting card</li>
+<li>Elegant stemmed rose for a classic gesture of love</li>
+<li>Exquisite love bangles</li>
+<li>Premium yogurt delight</li>
+<li>Great fragrance perfume</li>
+<li>Handmade crispy chin chin</li>
+<li>Indulgent bar of chocolate</li>
+
         </ul>
         <p class="price">₦20,000</p>
         <a href="https://wa.me/2349061413565?text=Hello!%20I%20am%20interested%20in%20the%2020k%20package." class="whatsapp-button" target="_blank">Select</a>
@@ -228,13 +230,14 @@
         </div>
         <h2>25k Package</h2>
         <ul>
-          <li>Fancy Water Bottle</li>
-          <li>3 Snickers Bar</li>
-          <li>Grape Wine</li>
-          <li>Piece of Cake</li>
-          <li>Necklace</li>
-          <li>Chocolate Biscuits</li>
-          <li>Perfume</li>
+          <li>Elegant fancy water bottle</li>
+          <li>Set of two luxurious Snickers bars</li>
+          <li>Sparkling classic red grape wine</li>
+          <li>Three generous pieces of artisan cake</li>
+          <li>Fashionable necklace</li>
+          <li>Premium chocolate biscuits</li>
+          <li>Perfume with a long-lasting scent</li>
+          
         </ul>
         <p class="price">₦25,000</p>
         <a href="https://wa.me/2349061413565?text=Hello!%20I%20am%20interested%20in%20the%2025k%20package." class="whatsapp-button" target="_blank">Select</a>
@@ -246,19 +249,129 @@
         </div>
         <h2>30k Package</h2>
         <ul>
-          <li>Wine</li>
-          <li>Candies</li>
-          <li>Bangles</li>
-          <li>Couples Necklace</li>
-          <li>Small Chops</li>
-          <li>Piece of Cake</li>
-          <li>Face Towel</li>
+          <li>Bottle of fine wine</li>
+<li>Selection of gourmet candies</li>
+<li>Elegant bangle set</li>
+<li>Matching couples’ necklaces</li>
+<li>Box of assorted small chops</li>
+<li>Delightful bento cake</li>
+<li>Soft, absorbent face towel</li>
+
         </ul>
         <p class="price">₦30,000</p>
         <a href="https://wa.me/2349061413565?text=Hello!%20I%20am%20interested%20in%20the%2030k%20package." class="whatsapp-button" target="_blank">Select</a>
       </div>
     </div>
+    <!-- Modal Popup -->
+<div id="businessModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2>Want a Stunning Design Like This?</h2>
+    <p>Let’s create something unique for your business. Click below to chat with us!</p>
+    <a href="https://wa.me/2348030727113?text=Hello!%20I%20would%20love%20a%20website%20design%20like%20this%20for%20my%20business." class="whatsapp-link" target="_blank">Yes, I Want This!</a>
+  </div>
+</div>
 
+<style>
+  /* Modal Styles */
+  .modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+  }
+
+  .modal-content {
+    background: white;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(0.8);
+    transition: transform 0.4s ease;
+  }
+
+  .modal.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .modal.show .modal-content {
+    transform: scale(1);
+  }
+
+  .close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .whatsapp-link {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+
+  .whatsapp-link:hover {
+    background: #1ebe5d;
+  }
+</style>
+
+<script>
+  // Show modal after 10 seconds
+  setTimeout(function() {
+    document.getElementById("businessModal").classList.add("show");
+  }, 10000);
+
+  // Close modal function
+  function closeModal() {
+    document.getElementById("businessModal").classList.remove("show");
+  }
+</script>
+
+    <div class="package" style="margin-top: 20px;">
+      <div class="image-placeholder">
+        <img src="img/Cupid.gif" alt="Teddy Bear" style="width: 100px; height: 100px; border-radius: 10px;">
+
+      </div>
+      <h2>40k Package</h2>
+      <ul>
+        <li>Fancy Teddy Bear</li>
+        <li>Three Sweet Unique Candies Bar</li>
+        <li>Exclusive Sparkling Wine</li>
+        <li>Beautiful Fancy Mug</li>
+        <li>Unique Deodorant</li>
+        <li>Yummy and Creamy Red Velvet Cake</li>
+        <li>Facial Acne Mask</li>
+        <li>Amazing Hair Conditioner</li>
+        <li>Three Stem of Beautiful Rose Flower</li>
+        <li>Hair Brush</li>
+        <li>Exclusive Vacuum Water Flask</li>
+        <li>Shaving Cream</li>
+      </ul>
+      <p class="price">₦40,000</p>
+      <a href="https://wa.me/2349061413565?text=Hello!%20I%20am%20interested%20in%20the%2040k%20package." class="whatsapp-button" target="_blank">Select</a>
+    </div>
+  </div>
+</div>
     <div class="footer">
       <p style="color: #d50032;">Contact us on WhatsApp: +2349061413565</p>
       <p style="color: #d50032;">Tell: +2348125856088</p>
